@@ -29,7 +29,7 @@ pip install -r requirements.txt
 2. Build the project:
 ```bash
 mkdir build && cd build
-cmake ..fw
+cmake ..
 make
 ```
 
