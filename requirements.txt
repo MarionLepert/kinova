@@ -1,0 +1,4 @@
+numpy==2.2.6
+redis==6.2.0
+mujoco==3.3.3
+conan==1.49

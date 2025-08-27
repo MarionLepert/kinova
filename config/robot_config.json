@@ -1,0 +1,22 @@
+{
+    "robots": {
+        "1": {
+            "ip_address": "192.168.1.10",
+            "redis_host": "192.168.1.11"
+        },
+        "2": {
+            "ip_address": "192.168.1.12",
+            "redis_host": "192.168.1.13" 
+        }
+    },
+    "central_redis_host": "192.168.1.15", 
+    "redis": {
+        "port": 6379,
+        "password": ""
+    },
+    "timing": {
+        "controller_frequency": 100.0,
+        "timing_window_size": 1000,
+        "stats_print_interval": 5.0
+    }
+} 
