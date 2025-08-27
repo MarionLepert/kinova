@@ -29,7 +29,7 @@ pip install -r requirements.txt
 2. Build the project:
 ```bash
 mkdir build && cd build
-cmake ..
+cmake ..fw
 make
 ```
 
@@ -46,7 +46,7 @@ graph LR
     subgraph Robot 2
         Nuc2["Nuc 2"]
     end
-    Router["Wireless router"]
+    Router["Router"]
     GPULaptop["GPU laptop"] --> Router
     Router --> Nuc1
     Router --> Nuc2
