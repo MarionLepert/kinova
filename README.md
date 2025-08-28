@@ -25,8 +25,14 @@ conda create -n kinova python=3.10
 conda activate kinova
 pip install -r requirements.txt
 ```
+2. Install additional requirements
+```
+sudo apt-get install -y nlohmann-json3-dev
+```
+Install pinnochio using these instructions: https://stack-of-tasks.github.io/pinocchio/download.html
+   
 
-2. Build the project:
+3. Build the project:
 ```bash
 mkdir build && cd build
 cmake ..
